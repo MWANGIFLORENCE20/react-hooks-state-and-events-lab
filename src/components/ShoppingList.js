@@ -11,6 +11,7 @@ function ShoppingList({ items }) {
           <option value="Dairy">Dairy</option>
           <option value="Dessert">Dessert</option>
         </select>
+        
       </div>
       <ul className="Items">
         {items.map((item) => (
